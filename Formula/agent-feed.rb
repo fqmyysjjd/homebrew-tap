@@ -115,7 +115,7 @@ class AgentFeed < Formula
 
   test do
     ENV["AGENT_FEED_HOME"] = (testpath/".agent-feed").to_s
-    assert_match "agent-feed 1.0.0", shell_output("#{bin}/agent-feed --version")
+    assert_match "agent-feed #{version}", shell_output("#{bin}/agent-feed --version")
     system bin/"agent-feed", "--help"
 
     mkdir testpath/"project"
