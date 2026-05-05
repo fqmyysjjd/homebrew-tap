@@ -3,8 +3,8 @@ class AgentFeed < Formula
 
   desc "Repository-owned workflow governance for AI coding agents"
   homepage "https://github.com/fqmyysjjd/agent-feed"
-  url "https://files.pythonhosted.org/packages/f0/7b/fda96e3f07c6ff39aebdf3f196020be98bdecb0bd8b649cbe5f195593d1a/agent_feed-1.1.4.tar.gz"
-  sha256 "770042d2a50e556def62e9479071d6d9f0f2c6965ba52ad04ddf1f4407c43d92"
+  url "https://files.pythonhosted.org/packages/48/2e/e17ddf78c98db8fbb06abbc53c46c25b8e8b57b601e706065b0945e766be/agent_feed-1.1.5.tar.gz"
+  sha256 "60cfe593114a2e38522177f3f24451877d0c765c3e4bcd35d231da238f3d317a"
   license "MIT"
 
   depends_on "python@3.13"
