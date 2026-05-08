@@ -3,8 +3,8 @@ class AgentFeed < Formula
 
   desc "Repository-owned workflow governance for AI coding agents"
   homepage "https://github.com/fqmyysjjd/agent-feed"
-  url "https://files.pythonhosted.org/packages/48/2e/e17ddf78c98db8fbb06abbc53c46c25b8e8b57b601e706065b0945e766be/agent_feed-1.1.5.tar.gz"
-  sha256 "60cfe593114a2e38522177f3f24451877d0c765c3e4bcd35d231da238f3d317a"
+  url "https://files.pythonhosted.org/packages/2a/ae/b3a68ad23383a8bf6c9f31158e660ff2184cc7ce781bc4fad6272e53be6c/agent_feed-1.1.6.tar.gz"
+  sha256 "02f7cad807fa69c3abd2a22283e6691f9e18fb055d4e54799b5b3587e14cdd2c"
   license "MIT"
 
   depends_on "python@3.13"
@@ -55,8 +55,8 @@ class AgentFeed < Formula
   end
 
   resource "markdown-it-py" do
-    url "https://files.pythonhosted.org/packages/5b/f5/4ec618ed16cc4f8fb3b701563655a69816155e79e24a17b651541804721d/markdown_it_py-4.0.0.tar.gz"
-    sha256 "cb0a2b4aa34f932c007117b194e945bd74e0ec24133ceb5bac59009cda1cb9f3"
+    url "https://files.pythonhosted.org/packages/06/ff/7841249c247aa650a76b9ee4bbaeae59370dc8bfd2f6c01f3630c35eb134/markdown_it_py-4.2.0.tar.gz"
+    sha256 "04a21681d6fbb623de53f6f364d352309d4094dd4194040a10fd51833e418d49"
   end
 
   resource "mdurl" do
